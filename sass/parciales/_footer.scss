@@ -1,0 +1,41 @@
+@import './vars';
+/*¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡    FOOTER   /////////////////////////////////////////////////////////////////////////*/
+/* inicio footer */
+  .estifooter__titulo{
+    color: $colorTipograFooter!important;
+    font-weight: bold;  
+    font-size: $fontSizeFooter;
+  }  
+  
+  .estifooter__tituloancla {
+    color: $colorTipograFooter;
+    font-weight: bold;  
+    font-size: $fontSizeFooter;
+
+    &:hover {
+        color: #C1B0A8;
+        font-weight: bold;
+        font-size: 1.7em;      
+      }	    
+  }  
+  
+  .estifooter__icon {
+    color: $colorTipograFooter;
+    transition: all 0.5s ease;
+    /* para pruebas */
+    /* background-color: rgb(197, 89, 17); */
+    /* border: 3px solid #230985;   */  
+
+    &:hover {    
+        color: #C1B0A8;
+        transform: rotate(30deg) scale(1.2);
+      }      
+  }
+  
+  .footer__copyrigth {
+    font-size: 1em;
+    color: $colorTipograFooter;
+    font-weight:700px; 
+    text-align: center;
+  }  
+  /* fin footer */

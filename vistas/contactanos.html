@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css" />
+     <!-- Para los iconos de las redes solciales -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+  <header class="header">
+    <figure class="figure_1">
+      <img
+        src="../images/logoByDany.png"
+        alt="logo app"
+        class="header__logo"
+      />
+    </figure>
+    
+    <nav class="header__navigation">
+      <ul class="header__links">
+        <li class="header__link"><a href="../index.html">Inicio</a></li>
+        <li class="header__link"><a href="./aretes.html">Aretes</a></li>
+        <li class="header__link"><a href="./collares.html">Collares</a></li>
+        <li class="header__link"><a href="./pulseras.html">Pulseras</a></li>
+      </ul>
+    </nav>
+
+    <figure class="figure_1">
+      <img
+        src="../images/shopping-bag.svg"
+        alt="logo compras"
+        class="header__compras"
+      />
+    </figure>
+  </header>     
+    <form action="">
+        <fieldset>
+            <legend>Formulario de Contacto</legend>
+
+            <div>
+                <label for="nombre">Nombres:</label><br />
+                <input type="text" id="nombre" placeholder="Ejm: Diana" required />
+            </div>
+            <br />
+            
+            <div>
+                <label for="apellido">Apellidos:</label><br />
+                <input type="text" id="apellido" placeholder="Ejm: Ramirez" required minlength="2" />
+            </div>
+            <br />
+
+            <div>
+                <label for="correoElectronico">Correo Electrónico:</label><br />
+                <input type="email" id="correoElectronico" placeholder="Ejm: anita@google.com">
+            </div>
+            <br />
+
+            <div>
+                <label for="telefono">Teléfono:</label><br />
+                <input type="number"  id="telefono" placeholder="Ejm: 995256897">
+            </div>
+            <br />
+
+            <div>
+                <label for="comentario">Comentarios:</label><br />
+                <textarea name="textarea" rows="10" cols="50" placeholder="comentarios" id="comentario"></textarea>
+            </div>
+            <br />
+            
+            <div>
+                <button type="submit">Enviar</button>
+            </div>                             
+        </fieldset>
+    </form> 
+    <footer class="footer">
+        <div class="footer__wrapper">
+          <div class="footer__sitemap">
+            <ul class="footer__links">              
+              <li><span>La Empresa</span></li>
+              <li><a href="../vistas/sobreNosotros.html">Sobre Nosotros</a></li>
+              <li><a href="../vistas/contactanos.html">Contactanos</a></li>
+            </ul>
+          </div>
+         
+          <div class="footer__social">
+            <h2>¡Síguenos!</h2>
+            <p class="footer__icons">
+              <a href="https://www.facebook.com/bydanyperu" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>                              
+              <a href="https://www.instagram.com/bydanyperu/?hl=es-la"  target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+              <!-- <i class="fab fa-facebook"></i>              
+              <i class="fab fa-instagram"></i>               -->
+            </p>
+          </div>          
+        </div>
+        <div class="footer__copyrigth">
+            <small>ByDany 2021 © Todos los derechos reservados </small> 
+          </div>
+      </footer>    
+</body>
+</html>

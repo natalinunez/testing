@@ -1,0 +1,35 @@
+@import './vars';
+/*////////////////////////////////////////////////////////////////Pagina Principal///////////////////////////////////////////////////////*/
+ /* inicio carrusel */
+  /* Esto es para controlar alto de la imagen del carrusel */
+  /* carousel-item es una clase propia de bootstrap*/
+  .carouselItem{
+    max-height: 80vh;
+    /* text-align: center!important;     */
+  }
+
+  .carouselItem__titulo{
+    font-size: 2.5em !important;  
+    color: $colorTipograCarrousel;  
+    font-family: "robotoMedium";
+  }
+
+  .carouselItem__parrafo{
+      font-size: 1.5em !important;    
+      color: $colorTipograCarrousel;  
+      font-family: "robotoMedium";
+  }
+/* fin carrusel */
+
+  .carbody__titu {
+    color : $colorTipograCategoPrinci;  
+    font-size: $fontSizeCategoPrinci;
+    font-weight: none;
+  }
+
+  .card__efecto:hover{  
+    /* cursor: pointer; */
+    transition: all 0.5s ease;
+    /*crece el card*/
+    transform: scale(1.1,1.1);
+  }
